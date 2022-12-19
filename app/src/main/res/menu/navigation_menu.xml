@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="Search" />
+        <item android:id="@+id/nav_collections"
+            android:icon="@drawable/ic_collections"
+            android:title="Collections" />
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_alarm"
+            android:title="Alarm" />
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/ic_baseline_library_music_24"
+            android:title="Data Lagu" />
+        <item
+            android:id="@+id/nav_restapi"
+            android:icon="@drawable/ic_baseline_library_music_24"
+            android:title="Rest API" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Log Out" />
+    </group>
+</menu>
